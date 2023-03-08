@@ -8,6 +8,7 @@ export default function Home(): JSX.Element {
       <Button appearance="ghost">Button</Button>
       <P size='l'>BIG ONE</P> 
       <P >MEDIUM TWO</P> 
+      <P size='s'>SMALL THREE</P> 
       <Tag size='s'>ghost</Tag>
       <Tag size='m' color='red'>red</Tag>
       <Tag size='s' color='green'>green</Tag>
