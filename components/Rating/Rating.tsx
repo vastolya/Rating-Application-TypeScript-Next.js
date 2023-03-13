@@ -1,13 +1,14 @@
 import { RatingProps } from "./Rating.props";
 import styles from "./Rating.module.css";
 import cn from "classnames";
-import StarIcon from "./Star.svg";
+import StarIcon from "./star.svg";
 import { useEffect, useState, KeyboardEvent } from "react";
 
 export const Rating = ({
   isEditable = false,
   rating,
   setRating,
+  className,
   ...props
 }: RatingProps): JSX.Element => {
   const [ratingArray, setRatingArray] = useState<JSX.Element[]>(
